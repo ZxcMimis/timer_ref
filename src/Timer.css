@@ -1,0 +1,62 @@
+body {
+  background-color: #0d001a;
+  color: #dbd0ff;
+  font-family: 'Orbitron', monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+
+.timer {
+  background: rgba(25, 0, 50, 0.8);
+  border: 2px solid #7b2fff;
+  border-radius: 20px;
+  padding: 40px 60px;
+  text-align: center;
+  box-shadow: 0 0 25px #7b2fff;
+
+}
+
+.timer:hover {
+  box-shadow: 0 0 40px #9b50ff, 0 0 80px #7b2fff inset;
+}
+
+
+.timer__display {
+  font-size: 60px;
+  color: #c8a2ff;
+  margin-bottom: 30px;
+  text-shadow: 0 0 20px #7b2fff, 0 0 40px #9b50ff;
+
+}
+
+
+.timer__buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+
+.timer__btn {
+  background: #1a0033;
+  border: 2px solid #7b2fff;
+  color: #dbd0ff;
+  font-size: 18px;
+  padding: 10px 25px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px #7b2fff;
+}
+
+.timer__btn:hover {
+  background: #7b2fff;
+  color: #0d001a;
+  box-shadow: 0 0 25px #9b50ff;
+  transform: scale(1.05);
+}
+
