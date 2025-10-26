@@ -3,7 +3,7 @@ import "./Timer.css";
 
 
 
-export default function Timer() {
+export default function App() {
   const [time, setTime] = useState(0);
   const intervalRef = useRef(null);
 
@@ -20,7 +20,7 @@ export default function Timer() {
   };
 
   const reset = () => {
-    stop();
+
     setTime(0);
   };
 
